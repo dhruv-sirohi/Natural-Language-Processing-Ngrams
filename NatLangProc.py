@@ -158,7 +158,3 @@ def build_ngram_model(words, n):
     """
     return(probify_ngram_counts(prune_ngram_counts(build_ngram_counts(words, n),15)))
     
-if __name__ == "__main__":
-    
-    print('After this cs lab, if there is a god he will have to beg for my forgiveness')
-    
